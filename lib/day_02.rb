@@ -3,7 +3,7 @@ class Day02
     x = 0
     y = 0
     
-    input.map { |e| 
+    input.each { |e| 
       parts = e.split(' ') 
       dir = parts[0]
       value = parts[1].to_i
@@ -21,7 +21,7 @@ class Day02
     y = 0
     aim = 0
     
-    input.map do |e| 
+    input.each do |e| 
       parts = e.split(' ') 
       dir = parts[0]
       value = parts[1].to_i
